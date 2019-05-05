@@ -1,0 +1,10 @@
+/* global css */
+
+.parent {
+    padding: 50px;
+}
+
+/* does not change css-module loca css */
+.link {
+    color: green;
+}

@@ -1,0 +1,9 @@
+/* local component css */
+
+:local(.title-wrapper) {
+    margin-top: 40px;
+}
+
+.link {
+    color: violet;
+}

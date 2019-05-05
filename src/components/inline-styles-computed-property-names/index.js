@@ -3,8 +3,7 @@ import React from 'react';
 class InlineStylesComputedPropertyNames extends React.Component {
     styles = {
         title: {
-            [this.props.lightGrey ? 'color': null]: 'lightblue',
-            marginTop: '50px'
+            [this.props.lightGrey ? 'color': null]: 'lightblue'
         }
     }
 

@@ -5,7 +5,7 @@ class Parent extends React.Component {
     render() {
         return (
             <div className='parent'>
-                <div>CSS stylesheet</div>
+                <div className='card'>CSS stylesheet</div>
                 <div>
                     {this.props.children}
                 </div>

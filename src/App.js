@@ -8,12 +8,22 @@ import CSSModules from './components/css-module';
 
 function App() {
   return (
-    <Parent>
-      <Child isChild></Child>
-      <InlineStyles withBorder />
-      <InlineStylesComputedPropertyNames />
-      <InlineStylesComputedPropertyNames lightGrey />
-      <CSSModules />
+    <Parent className='card'>
+      <div className='card'>
+        <Child isChild />
+      </div>
+      <div className='card'>
+        <InlineStyles withBorder />
+      </div>
+      <div className='card' >
+        <InlineStylesComputedPropertyNames />
+      </div>
+      <div className='card'>
+        <InlineStylesComputedPropertyNames lightGrey />
+      </div>
+      <div className='card'>
+        <CSSModules />
+      </div>
     </Parent>
   );
 }

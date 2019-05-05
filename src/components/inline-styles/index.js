@@ -3,8 +3,7 @@ import React from 'react';
 class InlineStyles extends React.Component {
     styles = {
         title: {
-            color: 'darkgrey',
-            marginTop: '50px'
+            color: 'darkgrey'
         }
     }
 

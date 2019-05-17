@@ -5,7 +5,11 @@ import Child from './components/child';
 import InlineStyles from './components/inline-styles';
 import InlineStylesComputedPropertyNames from './components/inline-styles-computed-property-names';
 import CSSModules from './components/css-module';
+import StyledComponents from './components/styled-components';
 
+// TODO styled-component
+// TODO MUI theme
+// TODO create 2 MUI themes at root
 function App() {
   return (
     <Parent className='card'>
@@ -23,6 +27,9 @@ function App() {
       </div>
       <div className='card'>
         <CSSModules />
+      </div>
+      <div className='card'>
+        <StyledComponents isRed />
       </div>
     </Parent>
   );
